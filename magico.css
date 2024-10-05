@@ -1,0 +1,49 @@
+
+
+.navegacao{
+    width: 100%;
+    /* height: 70px; */
+    background: transparent;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navegacao ul{
+    max-width: 350px;
+    display: flex;
+    padding: 0 7px;
+}
+
+.navegacao ul li{
+    width: 70px;
+    /* height: 70px; */
+    list-style-type: none;
+    position: relative;
+    z-index: 1;
+}
+
+.navegacao ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.navegacao ul li a .icone{
+    display: inline-block;
+    /* line-height: 70px; */
+    font-size: 22px;
+    position: relative;
+    color: #fff;
+    transition: .5s;
+    text-align: center;
+}
+
+.navegacao ul li a .icone:hover{
+    color: #d79e48;
+}
